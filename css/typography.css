@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Noto-Serif;
+    src: url(./asset/typography/NotoSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(./asset/typography/Nunito-Regular.ttf);
+}
