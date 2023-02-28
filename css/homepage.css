@@ -10,12 +10,10 @@
 
 .section__paragraph {
     margin: 35px 35px 40px 30px;
-    justify-content: center;
     height: 260px;
 }
 
 .link {
     display: flex ;
     justify-content: center;
-
 }
