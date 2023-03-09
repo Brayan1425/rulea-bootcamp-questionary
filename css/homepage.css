@@ -8,17 +8,15 @@
 }
 
 .header__subtitle {
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 .section__paragraph {
-    margin-bottom: 40px;
-    margin: 35px 40px 140px;
+    margin: 0px 40px 190px 40px;
 }
 
 .link {
     display: flex ;
     justify-content: center;
     align-items:center;
-    height: 200px;
 }
