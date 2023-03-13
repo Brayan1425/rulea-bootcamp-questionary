@@ -1,25 +1,31 @@
 :root{
     --main-color: black;
 }
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:16px;
+}
+body{
+    font-family:Nunito ;
+}
 h1 {
     font-family:Noto-Serif ;
-    font-size: 36px;
-    font-weight:40px;
-    line-height:39.6px;
+    font-size: 2.25em;
 }
 
 h2 {
-    font-family:Nunito ;
-    font-size:25px ;
-    line-height:26.4px ;
-}
+    font-size: 1.5em;
+ }
 
 p {
-    font-family:Nunito ;
+    font-size: 1em;
 }
 
 a {
-    font-family:Nunito ;
-    color: var(--main-color)
+    color: var(--main-color);
+    font-size: 1em;
  }
