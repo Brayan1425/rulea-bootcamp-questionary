@@ -5,15 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" href="/css/global-styles.css">
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/normalize.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="header__title">title</h1>
+        <h1 class="header__title"> Title</h1>
+
     </header>
 
     <main>
+        <form id="form__list" class="form__list">
+            <fieldset>
+                <legend class="title__question">¿What are the 3 ways to save data in the browser with JavaScript?</legend>
+                <p class="form__item">
+                    <input
+                    for="response1"
+                    id="answerOne"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="1">
+                    <label for="answerOne">LocalStorage, IndexedDB</label>
+                </p>
+
+                <p class="form__item">
+                    <input
+                    for="response2"
+                    id="answerTwo"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="2">
+                    <label for="answerTwo">IndexedDB,cookies </label>
+                </p>
+
+                <p class="form__item">
+                    <input
+                    for="response3"
+                    id="answerthree"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="3">
+                    <label for="answerThree"> Cookiesm,LocalStorage, SessionStorage </label>
+                </p>
+            </fieldset>
         <section>
-            <a class="link" href="#">start</a>
+            <a class="link" href="./Questions-02.html">start</a>
         </section>
     </main>
 </body>

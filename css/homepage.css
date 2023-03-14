@@ -10,13 +10,28 @@
 .header__subtitle {
     margin-bottom: 30px;
 }
+.container {
+    display: flex;
+    flex-direction:  column;
+    min-height: 50vh ;
+    justify-content: space-between;
+}
 
 .section__paragraph {
-    margin: 0px 40px 190px 40px;
+    margin: 0px 40px 0px 40px;
 }
 
 .link {
     display: flex ;
     justify-content: center;
     align-items:center;
+}
+
+/*questions*/
+
+.form__list {
+    display: flex;
+    flex-direction:  column;
+    min-height: 50vh ;
+    justify-content: space-between;
 }
