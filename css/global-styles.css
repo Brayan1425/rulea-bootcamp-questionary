@@ -32,7 +32,7 @@ a {
 }
 
 form {
-    font-size: ;
+    font-size: 1em ;
 }
 
 fieldset {
@@ -41,5 +41,6 @@ fieldset {
 }
 
 legend {
-    font-size: ;
+    font-size: 1.5em ;
 }
+
